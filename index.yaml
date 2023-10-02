@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  new-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-02T16:54:43.805643838+02:00"
+    dependencies:
+    - name: wordpress
+      repository: '@bitnami'
+      version: 17.1.13
+    description: A Helm chart for Kubernetes
+    digest: 75bb63740e99acda5e1880376df9417609b23313215c10ba6c8b6afa0a248533
+    name: new-chart
+    type: application
+    urls:
+    - https://github.com/florian-bigot/newrepo/new-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-10-02T16:54:43.794487771+02:00"
